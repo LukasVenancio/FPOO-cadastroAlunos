@@ -8,7 +8,5 @@ public class App {
 
 		FrameAlunos frame = new FrameAlunos();
 		frame.setVisible(true);
-		
-	
-}
+	}
 }

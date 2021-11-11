@@ -12,7 +12,6 @@ public class AlunoRepository {
 
 	public AlunoRepository(int quantidadeDeAlunos) {
 		turma = new Aluno[quantidadeDeAlunos];
-
 	}
 
 	public Aluno listarAluno(int posicao) {
@@ -25,6 +24,5 @@ public class AlunoRepository {
 
 	public void gravar(Aluno aluno, int posicao) {
 		turma[posicao] = aluno;
-
 	}
 }

@@ -2,7 +2,7 @@ package br.senai.sp.jandira.model;
 
 public enum Periodo {
 
-	MANHA("Manhã"), TARDE("Tarde"), NOITE("Note");
+	MANHA("Manhã"), TARDE("Tarde"), NOITE("Noite"), SABADO("Sábado");
 
 	private String descricao;
 
