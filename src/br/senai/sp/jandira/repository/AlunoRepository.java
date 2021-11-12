@@ -25,4 +25,8 @@ public class AlunoRepository {
 	public void gravar(Aluno aluno, int posicao) {
 		turma[posicao] = aluno;
 	}
+	
+	public int getTamanho() {
+		return turma.length;
+	}
 }
